@@ -9,8 +9,8 @@ const checkIcon = (
 
 const AboutSectionOne = () => {
   const List = ({ text }) => (
-    <p className="m-5 flex text-lg font-medium text-body-color">
-      <span className="mr-4 flex h-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
+    <p className="m-5 flex text-lg text-body-color lg:w-auto">
+      <span className="mr-4 flex size-10 p-4 h-[20px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
         {checkIcon}
       </span>
       {text}
@@ -18,46 +18,44 @@ const AboutSectionOne = () => {
   );
 
   return (
-    <section id="about" className="pt-16 md:pt-20 lg:pt-28">
+    <section id="about" className="pt-12 md:pt-14 lg:pt-20">
       <div className="container">
-        <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
-          <div className="-mx-4 flex flex-wrap items-center">
+        <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] xs:pb-0 md:pb-20 lg:pb-28">
+          <SectionTitle
+            title="Aims and Objectives"
+            paragraph="Established in 1987, we are a specialist medical society and charity. Our aims are:"
+            mb="44px"
+          />
+          <div className="-mx-4 flex flex-wrap w-full">
             <div className="w-full px-4 lg:w-1/2">
-              <SectionTitle
-                title="Aims and Objectives"
-                paragraph="Established in 1987, we are a specialist medical society and charity. Our aims are:"
-                mb="44px"
-              />
-
               <div
                 className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
                 data-wow-delay=".15s"
               >
                 <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
+                  <div className="w-full px-3 sm:w-full lg:w-full">
                     <List text="Promote, fund and disseminate the results of research into the use of technology in anaesthesia and perioperative care" />
                     <List text="Promote and facilitate education and training in digital health, with a focus on perioperative care" />
                     <List text="Work in partnership with similar organisations such as ESCTAIC in Europe and the STA in the United States" />
                     <List text="Encourage engagement of clinicians in ISOs such as HL7-FHIR, OpenEHR and SNOMED-CT through membership and partnership" />
                   </div>
-
                 </div>
               </div>
             </div>
 
-            <div className="w-full px-4 lg:w-1/2">
+            <div className="w-full px-4 lg:w-1/2 mt-5 xs:hidden lg:inline">
               <div
                 className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
                 data-wow-delay=".2s"
               >
                 <Image
-                  src="/images/about/about-image.svg"
+                  src="/images/about/about-image-page.png"
                   alt="about-image"
                   fill
                   className="drop-shadow-three mx-auto max-w-full dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
                 <Image
-                  src="/images/about/about-image-dark.svg"
+                  src="/images/about/about-image-page.png"
                   alt="about-image"
                   fill
                   className="drop-shadow-three mx-auto hidden max-w-full dark:block dark:drop-shadow-none lg:mr-0"
