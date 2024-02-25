@@ -18,7 +18,7 @@ const Blog = () => {
         description="Posts from our committee, members and partners"
       />
 
-      <section className="pb-[120px] pt-[120px]">
+      <section className="pb-[120px] pt-[20px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap justify-center">
             {blogData.map((blog) => (

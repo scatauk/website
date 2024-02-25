@@ -5,7 +5,7 @@ const blogData: Blog[] = [
     id: 1,
     title: "2023 SCATA-STA Speaker Exchange: Las Vegas",
     paragraph:
-      "SCATA member James Selby reports on his experience of the SCATA-STA Speaker Exchange Programme.",
+      "James Selby reports on his experience of the SCATA-STA Speaker Exchange Programme.",
     image: "/images/blog/destination-1853477_1280.jpg",
     author: {
       name: "James Selby",
