@@ -43,7 +43,7 @@ echo "Running the build command..."
 
 if [[ ${VERCEL_ENV} == "production" ]]; then
     echo "Production deployment with VERCEL_URL: '$VERCEL_URL'";
-    hugo -b https://$VERCEL_URL --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic
+    hugo -b https://$VERCEL_PROJECT_PRODUCTION_URL --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic
 else
     echo "Not production deployment with VERCEL_URL: '$VERCEL_URL'";
     hugo -b https://$VERCEL_URL -D --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic
