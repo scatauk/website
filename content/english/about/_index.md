@@ -2,7 +2,7 @@
 title: "About the Society"
 meta_title: "About"
 description: "this is meta description"
-image: "/images/about-page.png"
+#image: "/images/about-page.png"
 draft: false
 ---
 
