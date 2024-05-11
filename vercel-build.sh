@@ -40,4 +40,11 @@ npm install
 
 # run the build command
 echo "Running the build command..."
-npm run build
+
+if [[ ${VERCEL_ENV} == "production" ]]; then
+    echo "Production deployment with VERCEL_URL: '$VERCEL_URL'";
+    hugo -b https://$VERCEL_URL --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic
+else
+    echo "Not production deployment with VERCEL_URL: '$VERCEL_URL'";
+    hugo -b https://$VERCEL_URL -D --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic
+fi
