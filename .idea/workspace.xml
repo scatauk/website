@@ -5,29 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81e1b865-c874-43f6-8f8a-38cacf395458" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/content/english/blog/2022/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/english/blog/2022/alastair-lack-obituary.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/english/blog/2022/andrew-norton-obituary.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/destination-1853477_1280.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/destination-1853477_1280.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/og-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/_default/menus.en.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config/_default/menus.en.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/english/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/english/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/english/about/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/english/about/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/english/blog/2023/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/english/blog/2023/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/english/blog/2023/post-1.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/english/blog/2023/post-2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/english/blog/2024/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/english/blog/2024/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/english/blog/2024/post-3.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/english/blog/2024/post-4.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/english/blog/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/english/blog/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hugo_stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/hugo_stats.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/css/css/style.css_82b067fd6c564693170dff5ae4660239.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/css/css/style.css_82b067fd6c564693170dff5ae4660239.content" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/scss/scss/main.scss_f120a3f402b106f64b18d498afd3d82e.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/scss/main.scss_f120a3f402b106f64b18d498afd3d82e.content" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugoplate/layouts/blog/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugoplate/layouts/blog/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugoplate/layouts/blog/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugoplate/layouts/blog/single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugoplate/layouts/contact/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugoplate/layouts/contact/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/author-gf.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/author-gf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/author-js.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/author-js.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/english/authors/john-doe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/english/authors/sam-wilson.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/english/authors/william-jacob.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +94,7 @@
       <workItem from="1715344155053" duration="3000" />
       <workItem from="1715344160270" duration="22000" />
       <workItem from="1715344360081" duration="11613000" />
-      <workItem from="1715937973976" duration="14250000" />
+      <workItem from="1715937973976" duration="16060000" />
     </task>
     <servers />
   </component>
