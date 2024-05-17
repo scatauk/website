@@ -11,6 +11,11 @@ name = "About"
 pageRef = "/about"
 weight = 2
 
+[[main]]
+name = "Blog"
+pageRef = "/blog"
+weight = 3
+
 # footer menu
 [[footer]]
 name = "About"
@@ -21,4 +26,9 @@ weight = 1
 name = "About"
 pageRef = "/about"
 weight = 1
+
+[[footer]]
+name = "Blog"
+pageRef = "/blog"
+weight = 3
 

@@ -37,7 +37,7 @@
             {{ end }}
             <li class="mr-4 inline-block">
               <i class="fa-regular fa-clock mr-2"></i>
-              {{ time.Format ":date_long" .PublishDate }}
+              {{ time.Format .Site.Params.dateFormat .PublishDate }}
             </li>
           </ul>
           <div class="content mb-10">
@@ -54,7 +54,7 @@
                       <a
                         class="bg-theme-light hover:bg-primary dark:bg-darkmode-theme-light dark:hover:bg-darkmode-primary dark:hover:text-dark m-1 block rounded px-3 py-1 hover:text-white"
                         href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/">
-                        {{ . | humanize }}
+                        {{ . }}
                       </a>
                     </li>
                   {{ end }}
