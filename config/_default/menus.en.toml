@@ -1,15 +1,30 @@
 ############# English navigation ##############
 
 # main menu
-[[main]]
-name = "Home"
-pageRef = "/"
-weight = 1
+# [[main]]
+# name = "Home"
+# pageRef = "/"
+# weight = 1
 
 [[main]]
 name = "About"
 pageRef = "/about"
 weight = 2
+
+[[main]]
+name = "Guidelines"
+url = "https://guidelines.scata.org.uk"
+weight = 3
+
+[[main]]
+name = "Blog"
+pageRef = "/blog"
+weight = 4
+
+[[main]]
+name = "Contact"
+pageRef = "/contact"
+weight = 5
 
 # footer menu
 [[footer]]
@@ -22,3 +37,17 @@ name = "About"
 pageRef = "/about"
 weight = 1
 
+[[footer]]
+name = "Guidelines"
+url = "https://guidelines.scata.org.uk"
+weight = 2
+
+[[footer]]
+name = "Blog"
+pageRef = "/blog"
+weight = 3
+
+[[footer]]
+name = "Contact"
+pageRef = "/contact"
+weight = 4

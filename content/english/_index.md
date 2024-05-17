@@ -3,7 +3,7 @@
 banner:
   title: "UK Society for Computing and Technology in Anaesthesia"
   content: "Established in 1987, we are a specialist medical society and charity."
-  image: "/images/banner.png"
+  image: "/images/splash.png"
   button:
     enable: true
     label: "Read our Guidelines"
