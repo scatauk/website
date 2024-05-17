@@ -6,7 +6,7 @@ date: 2023-02-01T05:00:00Z
 image: "/images/destination-1853477_1280.jpg"
 categories: ["Reports"]
 author: "James Selby"
-tags: ["STA"]
+tags: ["STA", "Conference"]
 draft: false
 ---
 

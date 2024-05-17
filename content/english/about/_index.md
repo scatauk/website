@@ -20,3 +20,7 @@ Our members are a diverse group of current and former anaesthetists, intensivist
 #### Our membership network
 
 We use the Slack platform as a tool for communication and collaboration. All SCATA members are eligible to join the Slack workspace, where they can connect with other members, participate in discussions and working groups.
+
+#### Contact
+
+The Committee and/or Trustees can be contacted using the form on our [contact page](/contact).
