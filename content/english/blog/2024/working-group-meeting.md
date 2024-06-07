@@ -54,7 +54,7 @@ neuromuscular and depth of anaesthesia monitoring standards.
 
 #### 2. Anaesthetic Records: an evaluation of their variation across England (RF)
 
-RF presented [his paper on Anaesthetic Records and their variation across England](https://slack-files.com/T2D057MCZ-F0626489HA9-b49043c3c1).  This included the argument for standardisation or the creation of a minimal dataset.
+RF presented [his paper on Anaesthetic Records and their variation across England](https://associationofanaesthetists-publications.onlinelibrary.wiley.com/doi/10.1002/anr3.12287).  This included the argument for standardisation or the creation of a minimal dataset.
 
 GF discussed this was a useful addition to the available international literature.
 MG felt the non-response from departments was poor, and wondered if it reflected poor design/implementation in those departments.

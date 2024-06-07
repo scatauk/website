@@ -59,9 +59,9 @@
                     class="nav-dropdown-link {{ if $active }}
                       active
                     {{- end -}}"
-                    {{ if findRE `^http` .URL }}
+                    {{/*  {{ if findRE `^http` .URL }}
                       target="_blank" rel="noopener"
-                    {{ end }}
+                    {{ end }}  */}}
                     href="{{- if findRE `^#` .URL -}}
                       {{- if not $.IsHome -}}
                         {{- site.Home.RelPermalink -}}
@@ -80,9 +80,9 @@
           <li class="nav-item">
             <a
               class="nav-link {{ if $active }}active{{- end -}}"
-              {{ if findRE `^http` .URL }}
+              {{/*  {{ if findRE `^http` .URL }}
                 target="_blank" rel="noopener"
-              {{ end }}
+              {{ end }}  */}}
               href="{{- if findRE `^#` .URL -}}
                 {{- if not $.IsHome -}}
                   {{- site.Home.RelPermalink -}}
