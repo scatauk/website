@@ -45,6 +45,6 @@ if [[ ${VERCEL_ENV} == "production" ]]; then
     echo "Production deployment with VERCEL_URL: '$VERCEL_URL'";
     hugo -b https://$VERCEL_PROJECT_PRODUCTION_URL --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic
 else
-    echo "Not production deployment with VERCEL_URL: '$VERCEL_URL'";
-    hugo -b https://$VERCEL_URL -D --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic
+    echo "Not production deployment with VERCEL_URL: '$VERCEL_URL' (SCATA_VERCEL_URL: '$SCATA_VERCEL_URL')";
+    hugo -b https://$SCATA_VERCEL_URL -D --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic
 fi
