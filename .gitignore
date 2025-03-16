@@ -4,3 +4,4 @@ out/
 resources/_gen/
 .idea/
 public/
+hugo_stats.json

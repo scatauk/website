@@ -1,12 +1,12 @@
 {{ define "main" }}
   {{ partial "page-header" . }}
 
-
+  <script src="https://www.google.com/recaptcha/api.js"async defer></script>
   <section class="section-sm">
     <div class="container">
       <div class="row">
         <div class="md:col-10 lg:col-6 mx-auto">
-          <form action="{{ site.Params.contact_form_action }}" method="POST">
+          <form id="get-in-touch" action="{{ site.Params.contact_form_action }}" method="POST">
             <div class="mb-6">
               <p>Please use this form to contact the SCATA Committee and/or Trustees.</p>
             </div>
@@ -43,8 +43,13 @@
                 placeholder="Message goes here..."
                 rows="8"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" data-sitekey="6LefGvYqAAAAACxYBbBa7xmONtVEKDxq0_SW-23o" data-callback='onSubmit' data-action='submit' class="g-recaptcha btn btn-primary">Submit</button>
           </form>
+          <script>
+            function onSubmit(token) {
+              document.getElementById("get-in-touch").submit();
+            }
+          </script>
         </div>
       </div>
     </div>

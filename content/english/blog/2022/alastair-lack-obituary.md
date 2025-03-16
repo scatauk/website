@@ -5,6 +5,7 @@ image: "/images/alastairlack.jpg"
 categories: ["Committee"]
 author: "Grant Forrest"
 tags: ["Obituary"]
+Summary: "Dr Alastair Lack, founding member of SCATA, has died aged 79."
 draft: false
 ---
 Obituary - Dr Alastair Lack

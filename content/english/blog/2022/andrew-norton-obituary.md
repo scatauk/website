@@ -5,6 +5,7 @@ image: "/images/andrewnorton.jpg"
 categories: ["Committee"]
 author: "Grant Forrest"
 tags: ["Obituary"]
+Summary: "Dr Andrew Norton, Past President and an early member of SCATA, has died aged 66."
 draft: false
 ---
 Dr Andrew Norton, Past President and an early member of SCATA, was diagnosed with a malignancy some months ago. 

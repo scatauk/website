@@ -7,10 +7,9 @@ image: "/images/colony-piccadilly.jpg"
 categories: ["Reports"]
 author: "JP Lomas"
 tags: ["meeting", "working group"]
+Summary: "The SCATA Chairman reports from the 2024 SCATA Working Group Meeting held in Manchester."
 draft: false
 ---
-
-_The SCATA Chairman reports from the 2024 SCATA Working Group Meeting held in Manchester._ 
 
 #### 1. FHIR for Anaesthesia Records (GF)
 ##### a. IG

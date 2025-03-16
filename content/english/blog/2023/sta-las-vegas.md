@@ -7,11 +7,9 @@ image: "/images/destination-1853477_1280.jpg"
 categories: ["Reports"]
 author: "James Selby"
 tags: ["STA", "Conference"]
+Summary: "James Selby reports on his experience of the SCATA-STA Speaker Exchange Programme."
 draft: false
 ---
-
-_James Selby reports on his experience of the SCATA-STA Speaker Exchange Programme._
-
 #### STA Annual Congress
 
 In January, as part of a speaker exchange program between SCATA and the Society
